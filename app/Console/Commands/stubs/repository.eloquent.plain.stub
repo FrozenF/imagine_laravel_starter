@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Repositories\BaseRepositoryEloquent;
+
+class DummyClass extends BaseRepositoryEloquent implements DummyClassInterface {
+
+    public function __construct($model)
+    {
+        parent::__construct($model);
+    }
+
+    /* Your Additional Method Goes Here */
+
+}
